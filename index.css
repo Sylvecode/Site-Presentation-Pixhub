@@ -1,0 +1,59 @@
+body {
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #1E2535;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+
+    font-family: Space Grotesk;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(180deg, #000 0%, #FFF 50%, #000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h2 {
+    color: #41FF82;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+
+.logoMascotte {
+    margin-top: 400px;
+}
+
+.logoMascotteImg {
+    height: 400px;
+    width: 600px;
+}
