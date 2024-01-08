@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-right: 50px;
     background-color: #1E2535;
 }
@@ -31,7 +31,21 @@ h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-right: 80px;
+    margin-left: 80px;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #00983a;
+}
+
+
+
+
 
 .container {
     padding: 30px;
@@ -42,18 +56,35 @@ h2 {
 .navbar {
 
     display: flex;
+    padding: 30px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 150px;
 
 }
 
-
-
 .logoMascotte {
-    margin-top: 400px;
+    display: flex;
+    margin-top: 800px;
+    justify-content: center;
 }
 
 .logoMascotteImg {
     height: 400px;
     width: 600px;
+}
+
+a:link, a:visited {
+    color: #41FF82;
+}
+
+
+.divImgArborescence {
+    display: flex;
+    justify-content: center;
+}
+
+.imgArborescence {
+    height: 800px;
+    width: 1500px;
 }
